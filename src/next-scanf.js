@@ -8,6 +8,7 @@
   nx.scanf = function(inTemplate, a, b, c, d, e, f) {
     var args = [a, b, c, d, e, f];
     var index = 0;
+    if (!inTemplate || inTemplate.indexOf('%s') === -1) return inTemplate;
     return inTemplate.replace(REPLACER_RE, function() {
       return args[index++];
     });
