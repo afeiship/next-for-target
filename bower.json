@@ -1,0 +1,28 @@
+{
+  "name": "next-scanf",
+  "version": "0.0.1",
+  "description": "Small string template like `scanf` for next",
+  "main": "dist/next-scanf.js",
+  "authors": [
+    "afei"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "next"
+  ],
+  "homepage": "https://github.com/afeiship/next-scanf",
+  "moduleType": [
+    "amd"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "build",
+    "src",
+    "gulp",
+    "gulpfile.js"
+  ]
+}
