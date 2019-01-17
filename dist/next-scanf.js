@@ -5,11 +5,11 @@
 
   // thanks to: https://github.com/zertosh/invariant/blob/master/invariant.js
 
-  nx.scanf = function(inTemplate, a, b, c, d, e, f) {
+  nx.scanf = function(inString, a, b, c, d, e, f) {
     var args = [a, b, c, d, e, f];
     var index = 0;
-    if (!inTemplate || inTemplate.indexOf('%s') === -1) return inTemplate;
-    return inTemplate.replace(REPLACER_RE, function() {
+    if (!inString || inString.indexOf('%s') === -1) return inString;
+    return inString.replace(REPLACER_RE, function() {
       return args[index++];
     });
   };
