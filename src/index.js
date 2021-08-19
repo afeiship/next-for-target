@@ -3,7 +3,7 @@
   var nx = global.nx || require('@jswork/next');
   var FUNC = 'function';
 
-  nx.forTarget = function (inSource, inTarget) {
+  nx.mapTo = function (inSource, inTarget) {
     var target = inTarget || {};
     nx.forIn(inSource, function (key, value) {
       if (typeof target.set === FUNC) {
@@ -16,6 +16,6 @@
   };
 
   if (typeof module !== 'undefined' && module.exports) {
-    module.exports = nx.forTarget;
+    module.exports = nx.mapTo;
   }
 })();

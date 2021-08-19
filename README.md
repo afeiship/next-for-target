@@ -1,4 +1,4 @@
-# next-for-target
+# next-map-to
 > Map source to target.
 
 [![version][version-image]][version-url]
@@ -8,12 +8,12 @@
 
 ## installation
 ```bash
-npm install -S @jswork/next-for-target
+npm install -S @jswork/next-map-to
 ```
 
 ## usage
 ```js
-import '@jswork/next-for-target';
+import '@jswork/next-map-to';
 
 const obj = {
   name: 'afeiship',
@@ -28,7 +28,7 @@ const ctx2 = {
   }
 };
 
-const res2 = nx.forTarget(obj, ctx);
+const res2 = nx.mapTo(obj, ctx);
 
 /*
 // res1
@@ -49,16 +49,16 @@ const res2 = nx.forTarget(obj, ctx);
 ```
 
 ## license
-Code released under [the MIT license](https://github.com/afeiship/next-for-target/blob/master/LICENSE.txt).
+Code released under [the MIT license](https://github.com/afeiship/next-map-to/blob/master/LICENSE.txt).
 
-[version-image]: https://img.shields.io/npm/v/@jswork/next-for-target
-[version-url]: https://npmjs.org/package/@jswork/next-for-target
+[version-image]: https://img.shields.io/npm/v/@jswork/next-map-to
+[version-url]: https://npmjs.org/package/@jswork/next-map-to
 
-[license-image]: https://img.shields.io/npm/l/@jswork/next-for-target
-[license-url]: https://github.com/afeiship/next-for-target/blob/master/LICENSE.txt
+[license-image]: https://img.shields.io/npm/l/@jswork/next-map-to
+[license-url]: https://github.com/afeiship/next-map-to/blob/master/LICENSE.txt
 
-[size-image]: https://img.shields.io/bundlephobia/minzip/@jswork/next-for-target
-[size-url]: https://github.com/afeiship/next-for-target/blob/master/dist/next-for-target.min.js
+[size-image]: https://img.shields.io/bundlephobia/minzip/@jswork/next-map-to
+[size-url]: https://github.com/afeiship/next-map-to/blob/master/dist/next-map-to.min.js
 
-[download-image]: https://img.shields.io/npm/dm/@jswork/next-for-target
-[download-url]: https://www.npmjs.com/package/@jswork/next-for-target
+[download-image]: https://img.shields.io/npm/dm/@jswork/next-map-to
+[download-url]: https://www.npmjs.com/package/@jswork/next-map-to

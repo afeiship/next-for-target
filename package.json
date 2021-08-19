@@ -1,8 +1,8 @@
 {
-  "name": "@jswork/next-for-target",
+  "name": "@jswork/next-map-to",
   "version": "1.0.0",
   "description": "Map source to target.",
-  "homepage": "https://github.com/afeiship/next-for-target",
+  "homepage": "https://github.com/afeiship/next-map-to",
   "author": {
     "name": "afei",
     "email": "1290657123@qq.com"

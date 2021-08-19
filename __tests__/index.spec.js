@@ -2,14 +2,14 @@
   require('../src');
 
   describe('api.basic test', () => {
-    test('nx.forTarget: target is pure object', function () {
+    test('nx.mapTo: target is pure object', function () {
       const obj = {
         name: 'afeiship',
         age: 18,
         email: 'email@example.com'
       };
       const ctx = {};
-      const res = nx.forTarget(obj, ctx);
+      const res = nx.mapTo(obj, ctx);
       expect(res).toEqual(obj);
     });
 
@@ -25,8 +25,7 @@
           this[`kv_${key}`] = value;
         }
       };
-      const res = nx.forTarget(obj, ctx);
-      console.log(res);
+      const res = nx.mapTo(obj, ctx);
       expect(res.kv_name).toBe('afeiship');
     });
   });
